@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./assets/stylesheet/style.css">
+  <link rel="stylesheet" href="./assets/stylesheet/reset.css">
+
+</head>
+
+<body>
+
+  <article class="abilities-benchmark-results">
+    <section class="results__overall-rating">
+      <h3>Your Result</h3>
+      <div class="overall-rating__value">
+        <h2>76<span>of 100</span></h2>
+      </div>
+
+      <div class="overall-rating__details">
+        <h3 class="rating">Great</h3>
+        <p class="facts">Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
+    </section>
+    <section class="results__summary">
+      <h2 class="title">Summary</h2>
+      <ul>
+        <li class="field-container">
+          <div class="field">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
+            <h3 class="field__name">Reaction</h3>
+          </div>
+          <p class="field__rating"><span class="strong">80 </span>/100</p>
+        </li>
+        <li class="field-container">
+          <div class="field">
+            <img src="./assets/images/icon-memory.svg" alt="memory icon">
+            <h3 class="field__name">Memory</h3>
+          </div>
+          <p class="field__rating"><span class="strong">92 </span>/100</p>
+        </li>
+        <li class="field-container">
+          <div class="field">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+            <h3 class="field__name">Verbal</h3>
+          </div>
+          <p class="field__rating"><span class="strong">61 </span>/100</p>
+        </li>
+        <li class="field-container">
+          <div class="field">
+            <img src="./assets/images/icon-visual.svg" alt="visual icon">
+            <h3 class="field__name">Visual</h3>
+          </div>
+          <p class="field__rating"><span class="strong">73 </span>/100</p>
+        </li>
+      </ul>
+
+      <button class="continue-btn">Continue</button>
+    </section>
+  </article>
+</body>
+
+</html>
